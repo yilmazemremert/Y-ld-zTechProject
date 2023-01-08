@@ -11,8 +11,8 @@ Cucumber Options altında HTML raporlar, features alanında ise steplerin tutuld
 ile çağrım sağlanıldı. 
 <p></p>
 <br>
-[github]: https://github.com/yilmazemremert
 <h3> Kullanılan Teknolojiler:</h3>
+[github]: https://github.com/yilmazemremert
 <img height="40" width="40" src="https://raw.githubusercontent.com/github/explore/5b3600551e122a3277c2c5368af2ad5725ffa9a1/topics/java/java.png">
 <img height="40" width="40" src="https://raw.githubusercontent.com/github/explore/5b3600551e122a3277c2c5368af2ad5725ffa9a1/topics/selenium/selenium.png">
 <img src="https://github.com/devicons/devicon/blob/master/icons/cucumber/cucumber-plain.svg" title="Cucumber" alt="Cucumber" width="40" height="40"/>
