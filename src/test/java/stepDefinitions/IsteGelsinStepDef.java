@@ -26,7 +26,7 @@ public class IsteGelsinStepDef {
         getDriver().get(ConfigReader.getProperty(url));
 
        try {
-           ReusableMethods.waitForVisibility(page.reklamSonrakiButon,5);
+           ReusableMethods.waitFor(5);
            ReusableMethods.jsScrollClick(page.reklamSonrakiButon);
            ReusableMethods.jsScrollClick(page.reklamSonrakiButon);
            ReusableMethods.jsScrollClick(page.reklamTamamButon);
@@ -155,5 +155,10 @@ public class IsteGelsinStepDef {
         assertTrue(page.sepet.isDisplayed());
         ReusableMethods.waitFor(6);
         ReusableMethods.getScreenshotWebElement("Sepetteki Urun",page.sepet);
+    }
+
+    @And("Kullanici sayfayi kapatir")
+    public void kullaniciSayfayiKapatir() {
+        Driver.closeDriver();
     }
 }

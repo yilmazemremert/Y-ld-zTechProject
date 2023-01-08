@@ -11,3 +11,4 @@
       Then Kullanici arama kutusuna istedigi bir urun ismini girer
       Then Kullanici onerilen siralamalardan fiyati artana gore secenegini secer
       And  Kullanici fiyati en dusuk olan urunu sepete ekler ve sepete ekledigini dogrular
+      And Kullanici sayfayi kapatir
